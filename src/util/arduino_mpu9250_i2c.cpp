@@ -28,7 +28,7 @@ int arduino_i2c_write(unsigned char slave_addr, unsigned char reg_addr,
 	{
 		Wire.write(data[i]);
 	}
-	Wire.endTransmission(true);
+
 	
 	return 0;
 }
